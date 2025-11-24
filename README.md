@@ -1,0 +1,7 @@
+# Market-Model Portfolio Risk Analysis with Daily Returns
+
+This project examines how portfolio risk behaves when measured through daily market movements, using a simplified market-model framework. Traditional portfolio analysis often relies on weekly or monthly returns, which smooth out short-term volatility and can mask important differences in risk behavior. By shifting to daily data, the analysis captures a more realistic view of how portfolios react to market conditions and interest-rate environments.
+
+The motivation behind this work is to compare two portfolio construction approaches—equal weighting and an optimized tangency portfolio—and understand how their daily return characteristics differ when exposed to the same market signals. Beyond simple performance comparison, the project evaluates how closely each stock tracks market risk through beta estimation, and whether the statistical assumptions behind the market model hold in practice.
+
+The objective is to build a clean, reproducible daily-return pipeline that constructs both portfolios, performs hypothesis tests on risk and return behavior, estimates betas for all constituent stocks, and validates the robustness of the model through diagnostic checks. The result is a practical, data-driven assessment of portfolio sensitivity and model reliability, consistent with methods used in real-world risk management and factor modeling.
